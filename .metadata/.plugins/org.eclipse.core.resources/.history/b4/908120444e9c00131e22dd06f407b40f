@@ -1,0 +1,86 @@
+package DynamicProgramming;
+
+import java.util.Map;
+import java.util.Scanner;
+
+public class Solution {
+	
+	/*public static int fact(int n){
+		
+		int fact = 1;
+		
+		if(n <= 1)
+			return 1;
+		
+		fact = n* fact(n -1);
+		
+		return fact;
+		
+	}*/
+	
+	public static double logFact(int n){
+		
+		if(n==0)
+			return 0;
+		
+		double logFact = 0;
+		for(int i = 1 ; i <= n ; i++){
+			logFact += Math.log10(i);
+					
+		}
+		return logFact;
+	}
+	
+	public static double antiLog(double logFact){
+		System.out.println(logFact + " " + Math.pow(10, logFact));
+		return Math.round(Math.pow(10, logFact));
+	}
+	
+	public static int getNumCombos(int numCols){
+		
+		int numCombs = 0;	
+		int numV = 0;
+		for(int numH = 0 ; numH <= numCols ; numH += 4){
+				numV = numCols - numH ;
+				numCombs += (int)  Solution.antiLog(logFact((numH/4 + numV)) - Solution.logFact(numH/4)  - Solution.logFact(numV)) ;
+		}
+		
+		return numCombs;
+		
+	}
+	
+	
+	public static boolean checkIfPrime(int n){
+		
+		for(int i = 2 ; i < n ; i ++){
+			if(n%i == 0){
+				return false;
+			}
+		}
+		
+		return true;
+		
+	}
+	
+	public static int getNumPrimes(int n){
+		int numPrimes = 0;
+		
+		for(int i = 2 ; i <= n ; i++){
+			if(checkIfPrime(i))
+				numPrimes++;
+		}
+		return numPrimes;
+	}
+	
+	public static void main(String[] args){
+		
+		Scanner sc = new Scanner(System.in);
+		//int T = sc.nextInt();
+		
+		//for(int i = 1 ; i <= T ; i ++){
+			System.out.println(Solution.getNumPrimes(getNumCombos(7)));
+		//}
+		
+	}
+
+}
