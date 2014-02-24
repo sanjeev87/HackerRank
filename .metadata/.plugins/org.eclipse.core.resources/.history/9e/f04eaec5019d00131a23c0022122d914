@@ -1,0 +1,122 @@
+package DynamicProgramming;
+
+import java.util.Scanner;
+
+public class Solution {
+	
+	
+	public static long modMult(long x, long y, long module){
+		
+		long tempX = x > module ? x % module : x;
+		long tempy = y > module ? y % module : y;
+		long tempResult = (tempX) * (tempy);
+		
+		return tempResult > module ? (tempResult) % module : tempResult;
+	}
+	
+	public static long getNumCombosFor1MWall(long M, long modulo){
+		
+		if(M == 1)
+			return 1;
+		
+		if(M == 2)
+			return 2;
+		
+		if(M == 3)
+			return 4;
+		
+		if(M == 4)
+			return 8;
+		
+		return ( (getNumCombosFor1MWall(M - 1, modulo)) + ( getNumCombosFor1MWall(M - 2, modulo) ) + ( getNumCombosFor1MWall(M - 3, modulo))  +  ( getNumCombosFor1MWall(M - 4, modulo))) % modulo;
+		
+	}
+	
+	public static long getModNumCombsForNMWall(int M , int N , int module){
+		
+		long numCombsFor1MWall = Solution.getNumCombosFor1MWall(M, module);
+		long numCombsForNMWall = 1;
+		for(int i = 1 ; i <= N ; i ++){
+			numCombsForNMWall = Solution.modMult(numCombsForNMWall, numCombsFor1MWall, module);
+		}
+		return numCombsForNMWall;
+		
+	}
+	
+	public static long getModPowerOf2(int N , long modulo){
+		
+		return (2 << N-1) % modulo ;
+		
+	}
+	
+	public static long getNumCombsForSolidWall(int M , int N , int module){
+		
+		if(M == 1)
+			return 1;
+		
+		if(M == 2){
+			 /*long numCombs = 1;
+			
+			for(int i = 1 ; i <= N ; i ++){
+				numCombs = Solution.modMult(numCombs, 2, module);
+			}
+			*/
+			return Solution.getModPowerOf2(N, module) - 1;
+			
+			//return numCombs - 1;
+		}
+		
+		if(M == 3){
+			
+			long temp = Solution.getNumCombsForSolidWall(2, N, module);
+			
+			return ( Solution.getModPowerOf2(2*N, module)  - 2 * Solution.getModPowerOf2(N, module) + 1 );
+			
+			
+		}
+		
+		if(M == 4){
+			/*
+			long temp1 = Solution.getNumCombsForSolidWall(2, N, module);
+			long temp2 = Solution.getNumCombsForSolidWall(3, N, module);
+			
+			return Solution.modMult(temp1, temp2, module);
+			*/
+			
+			return ( Solution.getModPowerOf2(3*N, module) - 3 * Solution.getModPowerOf2(2*N, module) + 3 * Solution.getModPowerOf2(N, module) - 1);
+			
+		}
+		
+		
+		long modNumCombsForSolidWall = Solution.getModNumCombsForNMWall(M, N, module);
+		
+		for(int i = 1 ; i <= M -1 ; i ++){
+			
+			modNumCombsForSolidWall -= getNumCombsForSolidWall(i, N, module) * getModNumCombsForNMWall(M-i, N, module);
+		}
+		
+		while (modNumCombsForSolidWall < 0 )
+			modNumCombsForSolidWall = modNumCombsForSolidWall + module;
+		
+		return modNumCombsForSolidWall;
+		
+	}
+	
+	public static void main(String[] args){
+		
+		//System.out.println(Solution.getModPowerOf2(3, 10));
+		//System.out.println(Solution.getModPowerOf2(3, 5));
+		
+		Scanner sc = new Scanner(System.in);
+		int module = 1000000007;
+		int T = sc.nextInt();
+		for(int i = 0 ; i <= T - 1 ; i ++){
+			int N = sc.nextInt();
+			int M = sc.nextInt();
+			
+			System.out.println(Solution.getNumCombsForSolidWall(M, N, module));
+		}
+	
+	}
+
+}
