@@ -6,4 +6,6 @@
 		<item value="156" key="HEIGHT"/>
 		<item value="600" key="WIDTH"/>
 	</section>
+	<section name="conditionHistory">
+	</section>
 </section>
