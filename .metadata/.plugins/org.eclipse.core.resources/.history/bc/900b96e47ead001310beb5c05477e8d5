@@ -1,0 +1,124 @@
+package DynamicProgramming;
+
+import java.util.Scanner;
+
+public class Solution {
+	
+	private static final int MODULO = 1000000007;
+	
+	/*
+	 * returns roundUp(LogBase2(x))
+	 */
+	public static int log2(int x){
+		int result = 0;
+		
+		while(x > 0){
+			x >>= 1;
+			result ++;
+		}
+			
+		return result;
+	}
+	
+	
+	/*
+	 * This method builds the number of ways making special case words, i.e. words with an additional special condition
+	 * special case words have only one letter in the second half of the alphabet in them
+	 * this letter has to be the last letter of the word for it to be a legitimate word as defined in the problem
+	 */
+	public static int[][] buildNumSpecialCaseWords(int sizeOfAlphabet, int sizeOfWord){
+		
+		int maxSizeOfSpecialCaseWords = log2(sizeOfAlphabet);
+		
+		/*
+		 * consider array[i][j]
+		 * this 2d array holds the number of ways of making special case words starting with the ith letter of 
+		 * the alphabet or some letter after it and having j more characters following it.
+		 * 
+		 * i is indexed from 1 to sizeOfAlphabet
+		 * j is indexed from 0 to maxSizeOfSpecialCaseWords - 1, as it is the number of additional characters after the first character
+		 */
+		int[][] array = new int[sizeOfAlphabet+1][maxSizeOfSpecialCaseWords];
+		
+		for(int i = sizeOfAlphabet ; i > 0 ; i --){
+			if(i == sizeOfAlphabet)
+				array[i][0] = 1;
+			else if(2*i > sizeOfAlphabet)
+				array[i][0] = 1 + array[i+1][0];
+			else
+				array[i][0] = array[i+1][0];
+		}
+		
+		for(int i = sizeOfAlphabet-1 ; i > 0 ; i --){
+			
+			for(int j= 1 ; j < maxSizeOfSpecialCaseWords ; j ++){
+				
+				/*
+				 * we can never have a special case word of size 2 or more that 
+				 * starts with a letter in the second half
+				 */
+				if(2*i > sizeOfAlphabet)
+					array[i][j] = 0;
+				else{
+					// the word can either start with the i+1 th letter or the i th letter
+					array[i][j] = array[i+1][j] + array[2*i][j-1];
+					array[i][j] %= MODULO;
+				}
+				
+			}
+			
+		}
+		return array;
+	}
+	
+	public static int computeNumPossibleWords(int sizeOfAlphabet, int sizeOfWord, int[][] array){
+		
+		int maxSizeOfSpecialCaseWords = log2(sizeOfAlphabet);
+		
+		/*
+		 * 	consider numPossibleSpecialCaseWords[i],
+		 *  stores num possible sp.case words starting with the first letter of the alphabet or later and 
+		 *  containing i letters in it.
+		 */
+		int[] numPossibleSpecialCaseWords = new int[maxSizeOfSpecialCaseWords + 1];
+		
+		for(int i = 1 ; i <= maxSizeOfSpecialCaseWords ; i ++ ){
+			numPossibleSpecialCaseWords[i] = array[1][i-1];
+		}
+		
+		int[] numPossibleWords = new int[sizeOfWord + 1];
+		// for ease of programming
+		numPossibleWords[0] = 1;
+		
+		for(int i = 1 ; i <= sizeOfWord ; i ++){
+			
+			for(int j = 1 ; j <= maxSizeOfSpecialCaseWords ; j ++ ){
+				
+				if(j>i) break;
+				
+				long temp = (long) numPossibleSpecialCaseWords[j] * numPossibleWords[i-j];
+				temp %= MODULO ;
+				
+				numPossibleWords[i] += (int) temp;
+				numPossibleWords[i] %= MODULO;
+				
+			}
+		}
+		
+		return numPossibleWords[sizeOfWord];
+	}
+	
+	
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		
+		for(int i = 1 ;i <= T ; i ++){
+			int sizeOfAlphabet = sc.nextInt();
+			int sizeOfWord = sc.nextInt();
+			
+			System.out.println(computeNumPossibleWords(sizeOfAlphabet, sizeOfWord, buildNumSpecialCaseWords(sizeOfAlphabet, sizeOfWord)));
+		}
+	}
+
+}

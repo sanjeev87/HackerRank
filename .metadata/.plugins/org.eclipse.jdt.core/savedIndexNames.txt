@@ -8,7 +8,6 @@ INDEX VERSION 1.126+/Users/srao/Documents/workspace/HackerRank/.metadata/.plugin
 4238209716.index
 2326659272.index
 3004609673.index
-3177648776.index
 765977872.index
 3000285004.index
 450555687.index
