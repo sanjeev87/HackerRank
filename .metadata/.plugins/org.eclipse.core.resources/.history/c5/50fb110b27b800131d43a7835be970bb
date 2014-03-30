@@ -1,0 +1,114 @@
+package Graph;
+
+import java.io.*;
+import java.util.*;
+
+public class JourneyToTheMoon {
+	
+	
+   public static long getNChoose2(int N){
+	   if(N <= 1)
+		   return 0;
+	   
+	   return (long)N*(N-1)/2;
+   }
+   
+   public static long getNumCombos(Map<Integer,Set<Integer>> astroClassifiedMap , int N){
+	   
+	   long numWaysForSameCountryTeams = 0 ;
+	   for(int astronaut : astroClassifiedMap.keySet()){
+		   int numAstros = astroClassifiedMap.get(astronaut).size() + 1 ;
+		   numWaysForSameCountryTeams += getNChoose2(numAstros);
+	   }
+	   
+	  return getNChoose2(N) - numWaysForSameCountryTeams;
+	   
+   }
+	
+   public static void main(String[] args) throws Exception{
+        BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
+        String[] temp = bfr.readLine().split(" ");
+        int N = Integer.parseInt(temp[0]);
+        int I = Integer.parseInt(temp[1]);
+      
+        Map<Integer,Set<Integer>> astroMap = new TreeMap<Integer, Set<Integer>>(); 
+        Map<Integer,Set<Integer>> astroMapClassified = new TreeMap<Integer, Set<Integer>>(); 
+
+        for(int i = 0; i < I; i++){
+            temp = bfr.readLine().split(" ");
+            int a = Integer.parseInt(temp[0]);
+            int b = Integer.parseInt(temp[1]);
+          // Store a and b in an appropriate data structure of your choice
+            
+            int min = Math.min(a, b);
+            int max = Math.max(a, b);
+            
+            if(!astroMap.containsKey(min)){
+            	astroMap.put(min, new TreeSet<Integer>());
+            }
+            astroMap.get(min).add(max);
+          
+        }
+        
+       int seed = Collections.min(astroMap.keySet());
+       
+       boolean keyValuePairExists = true;
+       
+       while(keyValuePairExists){
+
+    	   Set<Integer> values = astroMap.get(seed);
+    	   astroMap.remove(seed);
+    	   astroMapClassified.put(seed, values);
+
+    	   boolean anotherKeyExist = true;
+    	   Set<Integer> tempSet = new TreeSet<Integer>(values);
+
+    	   while(anotherKeyExist ){
+
+    		   Set<Integer> nextItrSet = new TreeSet<Integer>();
+    		   for(int astronaut : tempSet){
+    			   if(astroMap.containsKey(astronaut)){
+    				   astroMapClassified.get(seed).addAll(astroMap.get(astronaut));
+    				   nextItrSet.addAll(astroMap.get(astronaut));
+    				   astroMap.remove(astronaut);
+    			   }
+    			 // if(astroMap.values().contains(astronaut)){
+    				  for(int ass : astroMap.keySet()){
+    					  Set<Integer> assValue = astroMap.get(ass);
+    					  if(assValue.contains(astronaut)){
+    						  astroMapClassified.get(seed).add(ass);
+    						  nextItrSet.add(ass);
+    					  }
+    				  }
+    			   //}
+    			   
+    		   }
+
+    		   if(nextItrSet.isEmpty()){
+    			   anotherKeyExist = false;
+    		   }else{
+    			   tempSet = nextItrSet;
+    		   }
+
+    	   }
+
+
+    	   if(!astroMap.isEmpty()){
+    		   seed = Collections.min(astroMap.keySet());
+    	   }else{
+    		   keyValuePairExists = false;
+    	   }
+
+       }
+       
+		long combinations = getNumCombos(astroMapClassified, N);
+        
+        // Compute the final answer - the number of combinations
+       
+        System.out.println(combinations);
+
+    }
+}
+
+ 
+

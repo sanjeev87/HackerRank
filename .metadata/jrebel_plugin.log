@@ -80,3 +80,263 @@ entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProg
 entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
 entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
 entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 17:53:54.380 [Worker-3] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-03-23 17:53:56.249 [Worker-3] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:52534/jrebel/notifications
+2014-03-23 17:53:56.937 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-03-23 17:53:56.964 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@622f8842
+2014-03-23 17:53:58.227 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@622f8842 stopped with exit code 2
+2014-03-23 21:07:16.445 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-03-23 21:07:17.634 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:49520/jrebel/notifications
+2014-03-23 21:14:21.634 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:14:21.634 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:15:05.408 [Worker-10] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:15:05.409 [Worker-10] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:16:48.086 [Worker-9] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:16:48.086 [Worker-9] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:17:29.344 [Worker-1] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:17:29.344 [Worker-1] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:19:27.601 [Worker-6] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:19:27.601 [Worker-6] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:20:59.414 [Worker-8] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:20:59.414 [Worker-8] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:21:39.698 [Worker-10] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:21:39.698 [Worker-10] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:24:41.327 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:24:41.327 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:25:37.505 [Worker-10] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:25:37.505 [Worker-10] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:26:10.887 [Worker-4] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:26:10.887 [Worker-4] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:26:36.232 [Worker-5] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:26:36.233 [Worker-5] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:28:06.959 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:28:06.959 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:48:18.448 [Worker-20] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:48:18.448 [Worker-20] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:48:48.178 [Worker-23] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:48:48.178 [Worker-23] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-23 21:48:58.753 [Worker-24] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-23 21:48:58.754 [Worker-24] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-24 19:07:52.285 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-03-24 19:07:52.550 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:49511/jrebel/notifications
+2014-03-24 20:35:17.792 [Worker-61] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-24 20:35:17.792 [Worker-61] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-24 20:35:51.207 [Worker-63] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-24 20:35:51.207 [Worker-63] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-24 20:36:01.583 [Worker-62] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-24 20:36:01.585 [Worker-62] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-24 20:36:26.015 [Worker-62] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-24 20:36:26.016 [Worker-62] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-24 20:37:17.582 [Worker-58] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-24 20:37:17.582 [Worker-58] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-24 20:37:37.649 [Worker-64] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-24 20:37:37.650 [Worker-64] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-24 20:38:07.054 [Worker-59] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-24 20:38:07.054 [Worker-59] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-25 00:07:52.404 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-03-25 00:07:52.426 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@131e826f
+2014-03-25 00:07:53.035 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@131e826f stopped with exit code 2
+2014-03-29 16:42:31.867 [Worker-0] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-03-29 16:42:33.936 [Worker-0] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:50334/jrebel/notifications
+2014-03-29 16:42:34.405 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-03-29 16:42:34.460 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@2e8f2b74
+2014-03-29 16:42:35.297 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@2e8f2b74 stopped with exit code 2
+2014-03-29 17:06:02.814 [Worker-6] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-29 17:06:02.814 [Worker-6] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-29 17:07:40.990 [Worker-15] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-29 17:07:40.990 [Worker-15] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-29 17:41:57.836 [Worker-34] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-29 17:41:57.836 [Worker-34] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-29 17:42:13.706 [Worker-34] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-29 17:42:13.706 [Worker-34] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-29 17:42:47.891 [Worker-34] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-29 17:42:47.891 [Worker-34] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-29 17:49:57.651 [Worker-42] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-29 17:49:57.652 [Worker-42] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 00:25:57.886 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-03-30 00:25:58.066 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:50982/jrebel/notifications
+2014-03-30 00:25:58.390 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-03-30 00:25:58.409 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@16d712fd
+2014-03-30 00:25:58.875 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@16d712fd stopped with exit code 2
+2014-03-30 01:39:31.945 [Worker-37] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 01:39:31.945 [Worker-37] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 01:41:17.584 [Worker-37] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 01:41:17.585 [Worker-37] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 01:43:07.227 [Worker-37] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 01:43:07.227 [Worker-37] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 01:49:10.029 [Worker-31] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 01:49:10.030 [Worker-31] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 01:50:13.953 [Worker-42] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 01:50:13.953 [Worker-42] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 02:10:54.713 [Worker-62] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 02:10:54.713 [Worker-62] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 02:11:23.767 [Worker-60] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 02:11:23.768 [Worker-60] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 02:18:08.751 [Worker-65] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 02:18:08.751 [Worker-65] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 02:22:01.042 [Worker-70] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 02:22:01.042 [Worker-70] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 02:42:00.263 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-03-30 02:42:00.419 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:51521/jrebel/notifications
+2014-03-30 02:43:02.949 [Worker-1] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 02:43:02.950 [Worker-1] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-30 11:02:30.889 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-03-30 11:02:31.036 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:52794/jrebel/notifications
+2014-03-30 11:05:28.891 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-03-30 11:05:28.892 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
