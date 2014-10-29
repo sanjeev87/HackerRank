@@ -340,3 +340,562 @@ entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Graph/Solut
 entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
 entry: org.eclipse.jdt.launching.MAIN_TYPE=Graph.Solution
 entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-03-31 00:02:31.709 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-03-31 00:02:31.740 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@51677560
+2014-03-31 00:02:32.640 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@51677560 stopped with exit code 2
+2014-04-08 17:10:35.412 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-04-08 17:10:36.503 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:62653/jrebel/notifications
+2014-04-08 17:10:36.902 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-08 17:10:36.912 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@7a6f2460
+2014-04-08 17:10:37.338 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@7a6f2460 stopped with exit code 0
+2014-04-10 12:19:13.055 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-04-10 12:19:13.212 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:50344/jrebel/notifications
+2014-04-10 12:19:13.557 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 12:19:13.575 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@39835e11
+2014-04-10 12:19:13.971 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@39835e11 stopped with exit code 0
+2014-04-10 12:49:13.988 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 12:49:14.004 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@f85ad37
+2014-04-10 12:49:14.404 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@f85ad37 stopped with exit code 0
+2014-04-10 13:19:14.419 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 13:19:14.431 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@753e1f6d
+2014-04-10 13:19:14.832 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@753e1f6d stopped with exit code 0
+2014-04-10 13:49:14.851 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 13:49:14.865 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@7820169c
+2014-04-10 13:49:15.266 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@7820169c stopped with exit code 0
+2014-04-10 14:19:15.278 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 14:19:15.290 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@50958cd7
+2014-04-10 14:19:15.703 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@50958cd7 stopped with exit code 0
+2014-04-10 14:49:15.717 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 14:49:15.730 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@7b0c3364
+2014-04-10 14:49:16.135 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@7b0c3364 stopped with exit code 0
+2014-04-10 15:19:16.147 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 15:19:16.160 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@32ea7237
+2014-04-10 15:19:16.560 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@32ea7237 stopped with exit code 0
+2014-04-10 15:49:16.578 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 15:49:16.595 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@149b24f
+2014-04-10 15:49:16.991 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@149b24f stopped with exit code 0
+2014-04-10 16:19:17.007 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 16:19:17.022 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@3fed033d
+2014-04-10 16:19:17.427 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@3fed033d stopped with exit code 0
+2014-04-10 16:49:11.045 [Worker-97] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 16:49:11.045 [Worker-97] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 16:49:16.278 [Worker-98] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 16:49:16.278 [Worker-98] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 16:49:17.442 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 16:49:17.455 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@15f85ef9
+2014-04-10 16:49:17.855 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@15f85ef9 stopped with exit code 0
+2014-04-10 16:52:53.884 [Worker-97] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 16:52:53.884 [Worker-97] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:19:17.868 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 17:19:17.889 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@627fdc51
+2014-04-10 17:19:18.285 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@627fdc51 stopped with exit code 0
+2014-04-10 17:35:01.862 [Worker-117] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:35:01.862 [Worker-117] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:37:01.920 [Worker-121] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:37:01.921 [Worker-121] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:40:04.973 [Worker-116] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:40:04.974 [Worker-116] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:42:20.397 [Worker-129] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:42:20.397 [Worker-129] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:42:37.438 [Worker-126] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:42:37.438 [Worker-126] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:44:29.212 [Worker-128] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:44:29.212 [Worker-128] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:44:46.265 [Worker-126] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:44:46.265 [Worker-126] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:44:50.715 [Worker-116] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:44:50.715 [Worker-116] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:49:18.300 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 17:49:18.314 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@5763e543
+2014-04-10 17:49:18.712 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@5763e543 stopped with exit code 0
+2014-04-10 17:57:07.130 [Worker-124] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:57:07.130 [Worker-124] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 17:57:45.408 [Worker-128] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 17:57:45.409 [Worker-128] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 18:02:49.953 [Worker-136] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoi
+2014-04-10 18:02:49.953 [Worker-136] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoi.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoi
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 20:58:54.457 [Worker-0] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-04-10 20:58:56.642 [Worker-0] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:49793/jrebel/notifications
+2014-04-10 20:58:57.024 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 20:58:57.096 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@389aeac1
+2014-04-10 20:58:57.880 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@389aeac1 stopped with exit code 0
+2014-04-10 21:28:57.923 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 21:28:57.933 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@229d7a33
+2014-04-10 21:28:58.339 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@229d7a33 stopped with exit code 0
+2014-04-10 21:46:07.992 [Worker-3] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoiRecursion
+2014-04-10 21:46:07.993 [Worker-3] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoiRecursion.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoiRecursion
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 21:51:12.895 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoiRecursion
+2014-04-10 21:51:12.895 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoiRecursion.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoiRecursion
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 21:54:09.943 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoiRecursion
+2014-04-10 21:54:09.943 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoiRecursion.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoiRecursion
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 21:58:58.355 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 21:58:58.365 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@2eb12cd3
+2014-04-10 21:58:58.760 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@2eb12cd3 stopped with exit code 0
+2014-04-10 22:20:37.459 [Worker-24] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoiRecursion
+2014-04-10 22:20:37.459 [Worker-24] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoiRecursion.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoiRecursion
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 22:28:58.776 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 22:28:58.787 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@68bfe34d
+2014-04-10 22:28:59.182 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@68bfe34d stopped with exit code 0
+2014-04-10 22:35:20.600 [Worker-47] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoiRecursion
+2014-04-10 22:35:20.600 [Worker-47] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoiRecursion.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoiRecursion
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 22:58:59.197 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 22:58:59.207 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1ce88c54
+2014-04-10 22:58:59.596 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1ce88c54 stopped with exit code 0
+2014-04-10 22:58:59.933 [Worker-49] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoiRecursion
+2014-04-10 22:58:59.933 [Worker-49] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoiRecursion.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoiRecursion
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 23:23:17.891 [Worker-81] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for TowerOfHanoiRecursion
+2014-04-10 23:23:17.891 [Worker-81] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Problems/src/TowerOfHanoiRecursion.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=TowerOfHanoiRecursion
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Problems
+2014-04-10 23:28:59.609 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 23:28:59.619 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1f432eb7
+2014-04-10 23:29:00.025 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1f432eb7 stopped with exit code 0
+2014-04-10 23:59:00.041 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-10 23:59:00.050 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@58ef2d84
+2014-04-10 23:59:00.444 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@58ef2d84 stopped with exit code 0
+2014-04-11 00:29:00.458 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 00:29:00.470 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@640ed26e
+2014-04-11 00:29:00.868 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@640ed26e stopped with exit code 0
+2014-04-11 00:59:00.884 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 00:59:00.894 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@3a0b455a
+2014-04-11 00:59:01.291 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@3a0b455a stopped with exit code 0
+2014-04-11 01:29:01.308 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 01:29:01.317 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@2b92b706
+2014-04-11 01:29:01.727 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@2b92b706 stopped with exit code 0
+2014-04-11 01:59:01.740 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 01:59:01.755 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@6bdc180f
+2014-04-11 01:59:02.150 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@6bdc180f stopped with exit code 0
+2014-04-11 02:29:02.163 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 02:29:02.174 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@35473462
+2014-04-11 02:29:02.579 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@35473462 stopped with exit code 0
+2014-04-11 02:31:26.089 [Worker-143] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:31:26.089 [Worker-143] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:32:16.555 [Worker-156] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:32:16.555 [Worker-156] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:34:16.436 [Worker-162] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:34:16.436 [Worker-162] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:34:48.688 [Worker-160] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:34:48.688 [Worker-160] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:34:53.416 [Worker-161] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:34:53.416 [Worker-161] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:35:44.285 [Worker-161] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:35:44.286 [Worker-161] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:36:57.514 [Worker-163] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:36:57.514 [Worker-163] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:38:42.776 [Worker-157] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:38:42.776 [Worker-157] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:39:17.570 [Worker-159] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:39:17.570 [Worker-159] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:40:38.638 [Worker-160] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:40:38.638 [Worker-160] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:44:58.179 [Worker-161] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 02:44:58.179 [Worker-161] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 02:59:02.590 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 02:59:02.600 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@39f44530
+2014-04-11 02:59:03.045 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@39f44530 stopped with exit code 0
+2014-04-11 03:29:03.058 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 03:29:03.066 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@60a6fd82
+2014-04-11 03:29:03.499 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@60a6fd82 stopped with exit code 0
+2014-04-11 03:59:03.511 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 03:59:03.522 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@119b91f
+2014-04-11 03:59:03.918 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@119b91f stopped with exit code 0
+2014-04-11 22:17:05.702 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-04-11 22:17:08.250 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:49220/jrebel/notifications
+2014-04-11 22:17:08.773 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 22:17:08.840 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@147fecff
+2014-04-11 22:17:09.645 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@147fecff stopped with exit code 0
+2014-04-11 22:26:06.772 [Worker-0] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 22:26:06.772 [Worker-0] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 22:36:04.521 [Worker-11] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 22:36:04.521 [Worker-11] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 22:41:56.080 [Worker-19] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 22:41:56.080 [Worker-19] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 22:42:04.087 [Worker-17] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 22:42:04.088 [Worker-17] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 22:44:24.333 [Worker-22] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-11 22:44:24.333 [Worker-22] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-11 22:47:09.697 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 22:47:09.710 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@38f4d59d
+2014-04-11 22:47:10.099 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@38f4d59d stopped with exit code 0
+2014-04-11 23:17:10.113 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 23:17:10.128 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1b5fcb3d
+2014-04-11 23:17:10.525 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1b5fcb3d stopped with exit code 0
+2014-04-11 23:47:10.539 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-11 23:47:10.557 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@6b67f1d8
+2014-04-11 23:47:10.951 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@6b67f1d8 stopped with exit code 0
+2014-04-12 00:11:35.908 [Worker-62] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 00:11:35.923 [Worker-62] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 00:11:49.939 [Worker-63] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 00:11:49.939 [Worker-63] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 00:17:11.070 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 00:17:11.100 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@3eedf60e
+2014-04-12 00:17:12.219 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@3eedf60e stopped with exit code 0
+2014-04-12 00:34:01.784 [Worker-58] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 00:34:01.856 [Worker-58] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 00:38:29.582 [Worker-72] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 00:38:29.582 [Worker-72] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 00:42:34.935 [Worker-74] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 00:42:34.936 [Worker-74] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 00:43:15.418 [Worker-74] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 00:43:15.418 [Worker-74] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 00:44:04.268 [Worker-74] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 00:44:04.268 [Worker-74] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 00:47:12.332 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 00:47:12.366 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@26bc144c
+2014-04-12 00:47:13.702 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@26bc144c stopped with exit code 0
+2014-04-12 01:17:15.158 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 01:17:15.169 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@4d4ab04a
+2014-04-12 01:17:15.705 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@4d4ab04a stopped with exit code 0
+2014-04-12 01:23:24.660 [Worker-86] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 01:23:24.660 [Worker-86] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 01:31:15.738 [Worker-84] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 01:31:15.738 [Worker-84] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 01:31:29.549 [Worker-94] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 01:31:29.549 [Worker-94] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 01:31:45.189 [Worker-97] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 01:31:45.189 [Worker-97] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 01:47:15.726 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 01:47:15.736 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@6af4e8da
+2014-04-12 01:47:16.134 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@6af4e8da stopped with exit code 0
+2014-04-12 11:39:38.261 [Worker-0] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-04-12 11:39:41.237 [Worker-0] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:49344/jrebel/notifications
+2014-04-12 11:39:41.795 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 11:39:41.874 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@301bc09e
+2014-04-12 11:39:42.819 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@301bc09e stopped with exit code 0
+2014-04-12 11:58:24.437 [Worker-8] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 11:58:24.437 [Worker-8] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 11:58:41.631 [Worker-8] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution
+2014-04-12 11:58:41.631 [Worker-8] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/Math/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Math.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 11:58:56.884 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 11:58:56.884 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 12:09:43.143 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 12:09:43.153 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@20de02d0
+2014-04-12 12:09:43.658 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@20de02d0 stopped with exit code 0
+2014-04-12 12:37:57.869 [Worker-17] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 12:37:57.869 [Worker-17] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 12:39:25.971 [Worker-22] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 12:39:25.971 [Worker-22] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 12:39:43.741 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 12:39:43.750 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@36643896
+2014-04-12 12:39:44.160 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@36643896 stopped with exit code 0
+2014-04-12 13:09:44.175 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 13:09:44.187 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@45d90e99
+2014-04-12 13:09:44.596 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@45d90e99 stopped with exit code 0
+2014-04-12 13:35:44.637 [Worker-70] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:35:44.637 [Worker-70] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:36:37.613 [Worker-70] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:36:37.614 [Worker-70] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:36:50.943 [Worker-68] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:36:50.943 [Worker-68] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:39:09.151 [Worker-79] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:39:09.151 [Worker-79] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:39:37.363 [Worker-81] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:39:37.364 [Worker-81] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:39:44.608 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 13:39:44.617 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@59821958
+2014-04-12 13:39:45.168 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@59821958 stopped with exit code 0
+2014-04-12 13:40:36.014 [Worker-76] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:40:36.014 [Worker-76] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:41:57.637 [Worker-77] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:41:57.637 [Worker-77] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:42:57.657 [Worker-84] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:42:57.657 [Worker-84] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:43:43.785 [Worker-83] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:43:43.786 [Worker-83] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:45:33.794 [Worker-77] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:45:33.794 [Worker-77] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 13:47:04.314 [Worker-65] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Solution (1)
+2014-04-12 13:47:04.314 [Worker-65] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/HackerRank/src/DynamicProgramming/Solution.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=DynamicProgramming.Solution
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=HackerRank
+2014-04-12 14:09:45.183 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 14:09:45.194 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@216eefbc
+2014-04-12 14:09:45.731 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@216eefbc stopped with exit code 0
+2014-04-12 14:39:45.834 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 14:39:45.865 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1fc3cc56
+2014-04-12 14:39:47.317 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1fc3cc56 stopped with exit code 0
+2014-04-12 15:09:47.332 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 15:09:47.414 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@28931cc9
+2014-04-12 15:09:47.945 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@28931cc9 stopped with exit code 0
+2014-04-12 15:39:47.961 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 15:39:47.972 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@51b9b068
+2014-04-12 15:39:48.571 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@51b9b068 stopped with exit code 0
+2014-04-12 16:09:48.637 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 16:09:48.668 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@23d211e4
+2014-04-12 16:09:50.365 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@23d211e4 stopped with exit code 0
+2014-04-12 16:39:50.435 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 16:39:50.465 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@7f6842a2
+2014-04-12 16:39:51.290 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@7f6842a2 stopped with exit code 0
+2014-04-12 17:09:51.303 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 17:09:51.310 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@4fda02b5
+2014-04-12 17:09:51.819 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@4fda02b5 stopped with exit code 0
+2014-04-12 17:39:51.924 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-12 17:39:51.955 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@44fce5c5
+2014-04-12 17:39:53.088 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@44fce5c5 stopped with exit code 0
+2014-04-13 00:32:14.034 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-13 00:32:14.067 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@54b51e5d
+2014-04-13 00:32:23.749 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@54b51e5d stopped with exit code 0
+2014-04-13 01:02:23.777 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-13 01:02:23.797 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@15f4ad33
+2014-04-13 01:02:24.349 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@15f4ad33 stopped with exit code 0
+2014-04-13 01:32:24.424 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-13 01:32:24.443 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@11045b49
+2014-04-13 01:32:24.966 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@11045b49 stopped with exit code 0
+2014-04-13 02:02:25.055 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-13 02:02:25.075 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@520c6fed
+2014-04-13 02:02:25.714 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@520c6fed stopped with exit code 0
+2014-04-13 02:32:25.793 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/Users/srao/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /Users/srao/Documents/eclipse/plugins/org.zeroturnaround.eclipse.embedder_5.5.1.RELEASE-201402211559/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-13 02:32:25.814 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@12ff51b6
+2014-04-13 02:32:26.706 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@12ff51b6 stopped with exit code 0
