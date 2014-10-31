@@ -1,7 +1,7 @@
 package Interview;
 
 public class PosNegArray {
-	
+/*	
 	 public static void main(String[] args) {
 	        int[] array = {1,2,4,-3,8,-5, 9, 6, -7};
 	        int[] arranged = reArragePostiveNegative(array);
@@ -124,5 +124,5 @@ public class PosNegArray {
 	    
 	    }
 	 
-
+*/
 }

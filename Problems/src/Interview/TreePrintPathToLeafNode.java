@@ -4,7 +4,6 @@ import java.util.Stack;
 
 public class TreePrintPathToLeafNode {
 	
-	
 	public static Stack<Node> stack = new Stack<Node>();
 	
 	public static void printPathToLeaf(Node root){
@@ -21,16 +20,13 @@ public class TreePrintPathToLeafNode {
 			return;
 		}
 		
-		
 		if(root.getLeft() != null)
 			printPathToLeaf(root.getLeft());
 		
 		if(root.getRight() != null)
 			printPathToLeaf(root.getRight());
-		
-		
+			
 	}
-	
 	
 	
 	

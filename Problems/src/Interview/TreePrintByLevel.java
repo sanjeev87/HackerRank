@@ -57,6 +57,52 @@ public class TreePrintByLevel {
 		
 	}
 	
+	
+	public static void printByLevelWithOneQueue(Node root){
+		
+		
+		if(root == null){
+			return;
+		}
+		
+		Queue<Node> queue = new LinkedList<Node>();
+		queue.add(new Node(0));
+		queue.add(root);
+		
+		int curLevel = 0;
+		StringBuffer out = new StringBuffer();
+		while(!queue.isEmpty()){
+			
+			out.append("level :" + curLevel + " " );
+			while(!queue.isEmpty() &&queue.peek().getValue() == curLevel){
+				queue.remove();
+				Node curNode = queue.remove();
+				out.append(curNode.getValue());
+				
+				if(curNode.getLeft() != null){
+					queue.add(new Node(curLevel + 1));
+					queue.add(curNode.getLeft());
+				}
+				
+				if(curNode.getRight() != null){
+					queue.add(new Node(curLevel + 1));
+					queue.add(curNode.getRight());
+					
+				}
+				
+			}
+			
+			System.out.println(out);
+			out = new StringBuffer();
+			curLevel++;
+			
+		}
+		
+		
+		
+	}
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -73,9 +119,11 @@ public class TreePrintByLevel {
 		node2.setRight(node4);
 		node3.setLeft(node6);
 		
+		node6.setLeft(node5);
 		
-		PrintByLevel(node1);
 		
+		//PrintByLevel(node1);
+		printByLevelWithOneQueue(node1);
 
 	}
 

@@ -1,0 +1,19 @@
+package Interview;
+
+public class SortStack {
+
+	//sort stack using another stack
+	
+	
+	
+	
+	
+	//sort stack using recursion
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
