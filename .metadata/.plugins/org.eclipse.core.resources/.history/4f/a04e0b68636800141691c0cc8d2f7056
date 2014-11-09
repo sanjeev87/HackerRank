@@ -11,7 +11,7 @@ public class BinaryTreeToDoublyLinkedList {
 		if(right == null)
 			return left;
 		
-		Node head = left;
+		Node head = new Node(left);
 		
 		while(left.getRight() != null)
 			left = left.getRight();
@@ -64,11 +64,8 @@ public class BinaryTreeToDoublyLinkedList {
 	
 		Node head = algo.convertBTToDLL(node3);
 		
-		while(head.getRight() != null){
-			
+		while(head.getRight() != null)
 			System.out.println(head.getValue());
-			head = head.getRight();
-		}
 		
 	}
 

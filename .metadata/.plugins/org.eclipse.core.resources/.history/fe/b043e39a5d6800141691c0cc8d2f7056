@@ -13,14 +13,6 @@ public class Node {
 		right = null;
 		
 	}
-	
-	public Node(Node aNode){
-		
-		this.left = aNode.left;
-		this.right = aNode.right;
-		this.value = aNode.value;
-		
-	}
 
 	public Node getLeft() {
 		return left;

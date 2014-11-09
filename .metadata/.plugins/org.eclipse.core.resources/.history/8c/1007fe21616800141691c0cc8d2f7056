@@ -3,7 +3,6 @@ package Interview;
 public class BinaryTreeToDoublyLinkedList {
 	
 	public Node merge(Node left, Node right){
-		
 	
 		if(left == null)
 			return right;
@@ -11,10 +10,10 @@ public class BinaryTreeToDoublyLinkedList {
 		if(right == null)
 			return left;
 		
-		Node head = left;
+		Node head = new Node(left);
 		
-		while(left.getRight() != null)
-			left = left.getRight();
+		while(left.getLeft() != null)
+			left = left.getLeft();
 		
 		left.setRight(right);
 		right.setLeft(left);
@@ -33,9 +32,6 @@ public class BinaryTreeToDoublyLinkedList {
 		Node left = convertBTToDLL(root.getLeft());
 		Node right = convertBTToDLL(root.getRight());
 		
-		root.setLeft(null);
-		root.setRight(null);
-		
 		Node leftList = merge(left, root);
 		Node FinalList = merge(leftList, right);
 		
@@ -53,22 +49,20 @@ public class BinaryTreeToDoublyLinkedList {
 		Node node5 = new Node(5);
 		Node node6 = new Node(6);
 		
-		node3.setLeft(node1);
-		node1.setRight(node2);
+		node1.setLeft(node2);
+		node1.setRight(node3);
 		
-		node3.setRight(node5);
-		node5.setLeft(node4);
-		node5.setRight(node6);
+		node2.setRight(node4);
+		node3.setLeft(node6);
+		
+		node4.setLeft(node5);
 		
 		BinaryTreeToDoublyLinkedList algo = new BinaryTreeToDoublyLinkedList();
 	
-		Node head = algo.convertBTToDLL(node3);
+		Node head = algo.convertBTToDLL(node1);
 		
-		while(head.getRight() != null){
-			
+		while(head.getRight() != null)
 			System.out.println(head.getValue());
-			head = head.getRight();
-		}
 		
 	}
 

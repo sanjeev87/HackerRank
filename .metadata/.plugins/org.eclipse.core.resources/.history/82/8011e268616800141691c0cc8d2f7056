@@ -3,7 +3,6 @@ package Interview;
 public class BinaryTreeToDoublyLinkedList {
 	
 	public Node merge(Node left, Node right){
-		
 	
 		if(left == null)
 			return right;
@@ -11,10 +10,10 @@ public class BinaryTreeToDoublyLinkedList {
 		if(right == null)
 			return left;
 		
-		Node head = left;
+		Node head = new Node(left);
 		
-		while(left.getRight() != null)
-			left = left.getRight();
+		while(left.getLeft() != null)
+			left = left.getLeft();
 		
 		left.setRight(right);
 		right.setLeft(left);
@@ -32,9 +31,6 @@ public class BinaryTreeToDoublyLinkedList {
 		
 		Node left = convertBTToDLL(root.getLeft());
 		Node right = convertBTToDLL(root.getRight());
-		
-		root.setLeft(null);
-		root.setRight(null);
 		
 		Node leftList = merge(left, root);
 		Node FinalList = merge(leftList, right);
@@ -62,13 +58,10 @@ public class BinaryTreeToDoublyLinkedList {
 		
 		BinaryTreeToDoublyLinkedList algo = new BinaryTreeToDoublyLinkedList();
 	
-		Node head = algo.convertBTToDLL(node3);
+		Node head = algo.convertBTToDLL(node1);
 		
-		while(head.getRight() != null){
-			
+		while(head.getRight() != null)
 			System.out.println(head.getValue());
-			head = head.getRight();
-		}
 		
 	}
 

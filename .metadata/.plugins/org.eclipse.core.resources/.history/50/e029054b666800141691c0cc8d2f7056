@@ -64,11 +64,8 @@ public class BinaryTreeToDoublyLinkedList {
 	
 		Node head = algo.convertBTToDLL(node3);
 		
-		while(head.getRight() != null){
-			
+		while(head.getRight() != null)
 			System.out.println(head.getValue());
-			head = head.getRight();
-		}
 		
 	}
 
