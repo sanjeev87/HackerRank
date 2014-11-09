@@ -60,7 +60,6 @@ public class TreePrintByLevel {
 	
 	public static void printByLevelWithOneQueue(Node root){
 		
-		
 		if(root == null){
 			return;
 		}
@@ -97,8 +96,6 @@ public class TreePrintByLevel {
 			curLevel++;
 			
 		}
-		
-		
 		
 	}
 	

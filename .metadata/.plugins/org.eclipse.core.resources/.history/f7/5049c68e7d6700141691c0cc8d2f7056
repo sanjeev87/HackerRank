@@ -1,0 +1,14 @@
+package Interview;
+
+public class LinkListNode {
+	
+	LinkListNode next;
+	LinkListNode prev;
+	int value;
+	
+	public LinkListNode(int value){
+		this.value = value;
+	}
+	
+
+}

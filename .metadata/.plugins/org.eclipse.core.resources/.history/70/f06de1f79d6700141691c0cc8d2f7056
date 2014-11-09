@@ -1,0 +1,40 @@
+package Interview;
+
+public class Permutation {
+	
+	
+	private boolean[] used;
+	StringBuffer permuteStr;
+	
+	public Permutation(String input){
+		used = new boolean[input.length()];
+		permuteStr = new StringBuffer();
+	}
+	
+	public void permute(String input){
+		
+		
+		
+		for(int i = 0 ; i < input.length() ; i ++){
+			
+			
+			
+			
+		}
+		
+	}
+
+	public boolean[] getUsed() {
+		return used;
+	}
+
+	public void setUsed(boolean[] used) {
+		this.used = used;
+	}
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
