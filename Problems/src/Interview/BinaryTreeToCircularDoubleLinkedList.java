@@ -23,8 +23,6 @@ public class BinaryTreeToCircularDoubleLinkedList {
 	}
 	
 	
-	
-	
 	public Node BTToCDDL(Node root){
 		
 		if(root == null)
@@ -45,8 +43,8 @@ public class BinaryTreeToCircularDoubleLinkedList {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
+		// TODO Auto-generated method stub
 		Node node1 = new Node(1);
 		Node node2 = new Node(2);
 		Node node3 = new Node(3);

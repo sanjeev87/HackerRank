@@ -1,0 +1,22 @@
+package Interview;
+
+public class ClosestElementInBST {
+
+	public Node getClosestNodeInBST(Node root, Node queryNode){
+		
+		if(root == null)
+			return null;
+		
+		
+		
+		
+		return null;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
