@@ -1,0 +1,27 @@
+package Interview;
+
+public class CheckIfBinaryTreeIsBalanced {
+
+	
+	public int getHeightOfBinaryTree(Node root){
+		
+		if(root == null)
+			return 0;
+		
+		int heightLeft = getHeightOfBinaryTree(root.getLeft());
+		int heightRight = getHeightOfBinaryTree(root.getRight());
+		
+		if()
+		
+		
+		return -1;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

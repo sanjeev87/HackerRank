@@ -15,7 +15,6 @@ public class TowerOfHanoiRecursion {
 	            return;
 
 	        playHanoi(n-1, from, to, other);
-	        
 	        System.out.printf("Move one disk from pole %s to pole %s \n ", from, to);
 	        playHanoi(n-1, other, from, to);
 	    }

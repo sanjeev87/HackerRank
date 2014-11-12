@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="DynamicProgramming.LegoBlocks"/>
 <fullyQualifiedTypeName name="DynamicProgramming.Solution"/>
 <fullyQualifiedTypeName name="java.text.Format"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
@@ -16,15 +15,24 @@
 <fullyQualifiedTypeName name="javax.management.Query"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="Interview.SortStack"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="Interview.ReverseLinkedList"/>
+<fullyQualifiedTypeName name="Interview.Permutation"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-<fullyQualifiedTypeName name="Interview.Node"/>
+<fullyQualifiedTypeName name="Interview.Combination"/>
 <fullyQualifiedTypeName name="Interview.LinkListNode"/>
+<fullyQualifiedTypeName name="Interview.Node"/>
+<fullyQualifiedTypeName name="Interview.BinaryTreeToDoublyLinkedList"/>
+<fullyQualifiedTypeName name="Interview.BinaryTreeToCircularDoubleLinkedList"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Interview.LowestCommonAncestor"/>
+<fullyQualifiedTypeName name="Interview.ClosestElementInBST"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="Interview.IterativeTreeTraversal"/>
 </qualifiedTypeNameHistroy>

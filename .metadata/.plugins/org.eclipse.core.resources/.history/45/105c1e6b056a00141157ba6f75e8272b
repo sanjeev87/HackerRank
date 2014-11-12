@@ -1,0 +1,39 @@
+package Interview;
+
+public class CheckIfBinaryTreeIsBalanced {
+
+	
+	public int getHeightOfBinaryTree(Node root){
+		
+		if(root == null)
+			return 0;
+		
+		int heightLeft = getHeightOfBinaryTree(root.getLeft());
+		
+		if(heightLeft == -1)
+			return -1;
+		
+		int heightRight = getHeightOfBinaryTree(root.getRight());
+		if(heightRight == -1)
+			return -1;
+		
+		if(Math.abs(heightLeft - heightRight) > 1){
+			return -1;
+		}else{
+			return 1 + Math.max(heightLeft, heightRight);
+		}
+		
+	}
+	
+	public boolean checkIfTreeIsBaclanced(Node root){
+		return getHeightOfBinaryTree(root) == -1 ? false:true;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
