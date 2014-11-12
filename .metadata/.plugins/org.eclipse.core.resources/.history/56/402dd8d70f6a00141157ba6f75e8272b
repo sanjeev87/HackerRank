@@ -1,0 +1,38 @@
+package Interview;
+
+public class CheckIfBinaryTreeIsBinarySearchTree {
+
+	public boolean checkIfBST(Node root){
+		
+		
+		if(root == null)
+			return false;
+		
+		if(root.getRight() != null){
+			if(root.getValue() <= root.getRight().getValue()){
+				return checkIfBST(root.getRight());
+			}else{
+				return false;
+			}
+		}
+		
+		if(root.getLeft() != null){
+			if(root.getValue() >= root.getLeft().getLeft().getValue()){
+				return checkIfBST(root.getLeft());
+			}else{
+				return false;
+			}
+			
+		}
+		
+		
+		return true;
+		
+	}
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}
