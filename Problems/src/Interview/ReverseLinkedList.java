@@ -51,6 +51,34 @@ public class ReverseLinkedList {
 		return node;
 		
 	}
+	
+	public static LinkListNode reverseItr(LinkListNode node){
+		
+		if(node == null){
+			return null;
+		}
+		
+		if(node.getNext() ==  null){
+			return node;
+		}
+		
+		LinkListNode behind = node;
+		LinkListNode curNode = node.getNext();
+		
+		behind.setNext(null);
+		
+		while(curNode.getNext() != null){
+			
+			LinkListNode temp = curNode.getNext();
+			curNode.setNext(behind);
+			behind = curNode;
+			curNode = temp;
+			
+		}
+		curNode.setNext(behind);
+		
+		return curNode;
+	}
 
 	public LinkListNode getHead() {
 		return head;
@@ -79,23 +107,24 @@ public class ReverseLinkedList {
 			System.out.println(initial.getValue());
 			initial = initial.getNext();
 		}
-		/*
-		LinkListNode node = reverseIteratively(node0);
+		
+		//LinkListNode node = reverseIteratively(node0);
+		LinkListNode node = reverseItr(node0);
 		
 		while(node!= null){
 			System.out.println(node.getValue());
 			node = node.getNext();
 		}
-		*/
 		
+		/*
 		ReverseLinkedList reverse = new ReverseLinkedList();
 		reverse.reverseRecursively(node0);
 		LinkListNode newHead = reverse.getHead();
-		
 		while(newHead!= null){
 			System.out.println(newHead.getValue());
 			newHead = newHead.getNext();
 		}
+		 */
 		
 	}
 

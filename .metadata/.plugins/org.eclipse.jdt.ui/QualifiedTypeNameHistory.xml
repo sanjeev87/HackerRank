@@ -29,10 +29,12 @@
 <fullyQualifiedTypeName name="Interview.Node"/>
 <fullyQualifiedTypeName name="Interview.BinaryTreeToDoublyLinkedList"/>
 <fullyQualifiedTypeName name="Interview.BinaryTreeToCircularDoubleLinkedList"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Interview.LowestCommonAncestor"/>
 <fullyQualifiedTypeName name="Interview.ClosestElementInBST"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="Interview.IterativeTreeTraversal"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="Interview.CheckIfBinaryTreeIsBalanced"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Interview.ConvertSortedArrayToBinaryTreeWithMinHeight"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

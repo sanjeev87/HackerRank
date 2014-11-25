@@ -61,36 +61,45 @@ public class IterativeTreeTraversal {
 
 	public void iterativePostorderTraversal(Node root){
 		
-		if(root == null)
-			return ;
+		if(root == null){
+			return;
+		}
 		
-		Node curNode = root;
-	
+		Stack<Node> stack = new Stack<Node>();
+		stack.push(root);
+		Node prev = null;
 		
-		do{
-
-			if(curNode == null){
-				curNode = stack.pop();
-				if(curNode.getRight() != null){
-					if(curNode.getRight() == stack.peek() ){
-						Node temp = stack.pop();
-						stack.push(curNode);
-						curNode = temp;
-					}else{
-						System.out.println(curNode.getValue());
-					}
+		while(!stack.isEmpty()){
+			Node curr = stack.peek();
+			
+			// traversing the tree downwards
+			if(prev == null || prev.getLeft() == curr || prev.getRight() == curr ){
+				if(curr.getLeft() != null){
+					stack.push(curr.getLeft());
+				}else if(curr.getRight() != null){
+					stack.push(curr.getRight());
+				}else{
+					System.out.println(curr.getValue());
+					stack.pop();
 				}
-			}else{
-				if(curNode.getRight() != null){
-					stack.push(curNode.getRight());
-				}
-
-				stack.push(curNode);
-				curNode = curNode.getLeft();
 			}
-
-		}while(!stack.isEmpty() );
-		
+			// traversing the tree upwards from the left
+			else if(curr.getLeft() ==  prev){
+				if(curr.getRight() != null){
+					stack.push(curr.getRight());
+				}else{
+					System.out.println(curr.getValue());
+					stack.pop();
+				}
+			}
+			// traversing a tree upwards from right
+			else{
+				System.out.println(curr.getValue());
+				stack.pop();
+			}
+			
+			prev = curr;
+		}
 		
 	}
 
