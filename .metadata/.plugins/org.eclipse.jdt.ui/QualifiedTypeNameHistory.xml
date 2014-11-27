@@ -25,7 +25,6 @@
 <fullyQualifiedTypeName name="Interview.Permutation"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="Interview.Combination"/>
-<fullyQualifiedTypeName name="Interview.LinkListNode"/>
 <fullyQualifiedTypeName name="Interview.Node"/>
 <fullyQualifiedTypeName name="Interview.BinaryTreeToDoublyLinkedList"/>
 <fullyQualifiedTypeName name="Interview.BinaryTreeToCircularDoubleLinkedList"/>
@@ -37,4 +36,5 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Interview.ConvertSortedArrayToBinaryTreeWithMinHeight"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Interview.LinkListNode"/>
 </qualifiedTypeNameHistroy>

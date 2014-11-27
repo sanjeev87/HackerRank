@@ -3,7 +3,7 @@ package Interview;
 import java.util.Scanner;
 import java.io.*;
 
-public class Solution {
+public class MagicBlocksPalantir {
 	
 	static int M = 0;
 	static int N = 0;
