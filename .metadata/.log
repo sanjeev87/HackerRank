@@ -2660,3 +2660,27 @@ Binding(ALT+COMMAND+R,
 
 !ENTRY org.eclipse.ui 4 4 2014-11-26 21:13:36.059
 !MESSAGE Unable to find Action Set: org.zeroturnaround.eclipse.remoting.SyncNowToolbarActions
+
+!ENTRY org.eclipse.ui 4 4 2014-11-27 19:21:40.896
+!MESSAGE Unable to find Action Set: com_sysdeo_eclipse_tomcat_actionSet
+
+!ENTRY org.eclipse.ui 4 4 2014-11-27 19:21:40.915
+!MESSAGE Unable to find Action Set: org.zeroturnaround.eclipse.remoting.SyncNowToolbarActions
+
+!ENTRY org.eclipse.ui 4 4 2014-11-27 19:56:11.700
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2014-11-27 19:56:11.720
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2014-11-27 19:56:11.720
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2014-11-27 19:56:11.720
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2014-11-27 19:56:11.722
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2014-11-27 19:56:11.722
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
