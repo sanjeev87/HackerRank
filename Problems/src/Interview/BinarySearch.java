@@ -9,7 +9,6 @@ public class BinarySearch {
 			int end) {
 
 		int mid = (start + end) / 2;
-
 		if (start == end) {
 			if (inputArr[start] == lookUpValue) {
 				return start;

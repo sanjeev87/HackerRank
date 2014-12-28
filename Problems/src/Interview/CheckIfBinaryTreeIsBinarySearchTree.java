@@ -13,6 +13,26 @@ public class CheckIfBinaryTreeIsBinarySearchTree {
 			return false;
 		}
 
+		if( !checkIfBST(root.getLeft(), min, (Integer) root.getValue()) || 
+				!checkIfBST(root.getRight(), (Integer) root.getValue(), max)){
+			return false;
+		}else{
+			return true;
+		}
+
+	}
+	
+	public static boolean checkIfBST(Node root , int min, int max){
+
+		if(root== null){
+			return true;
+		}
+
+		if( ( root.getValue() < min) || 
+				(root.getValue() > max) ){
+			return false;
+		}
+
 		if( !checkIfBST(root.getLeft(), min, root.getValue()) || 
 				!checkIfBST(root.getRight(), root.getValue(), max)){
 			return false;
@@ -41,13 +61,15 @@ public class CheckIfBinaryTreeIsBinarySearchTree {
 		node5.setLeft(node4);
 		node5.setRight(node7);
 
-		node7.setRight(node8);
-		node7.setLeft(node6);
+		node7.setLeft(node8);
+		node7.setRight(node6);
 
-		node8.setLeft(node9);
+		//node8.setLeft(node9);
 		
-		boolean result = checkIfBST(node3,null,null);
-		System.out.println(result);
+		boolean result1 = checkIfBST(node3,null,null);
+		boolean result2 = checkIfBST(node3,Integer.MIN_VALUE,Integer.MAX_VALUE);
+		System.out.println(result1);
+		System.out.println(result2);
 		
 	}
 

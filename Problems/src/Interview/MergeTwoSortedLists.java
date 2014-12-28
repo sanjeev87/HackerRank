@@ -25,11 +25,34 @@ public class MergeTwoSortedLists {
 			while(j < l2.size())
 				result.add(j++);
 		}
-		
+
 		return result;
 	}
-	
-	
+
+
+	public void merge(int A[], int m, int B[], int n) {
+
+		
+		int i = 0;
+		int j = 0;
+		
+		while(i< m -1 && j < n-1){
+			
+			if(A[i] < B[j]){
+				i++;
+			}else{
+				System.arraycopy(A, i, A, i+1, m - i);
+				A[i] = B[j];
+				j++;
+				i++;
+			}
+			
+		}
+
+
+	}
+
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -39,18 +62,18 @@ public class MergeTwoSortedLists {
 		l1.add(3);
 		l1.add(44);
 		l1.add(1100);
-		
+
 		List<Integer> l2 = new LinkedList<Integer>();
 		l2.add(-2);
 		l2.add(5);
 		l2.add(33);
-		
+
 		System.out.println("l1 :" + l1);
 		System.out.println("l2 :" + l2);
 		List<Integer> result = merge(l1, l2);
 		System.out.println("result :" + result);
-		
-		
+
+
 	}
 
 }

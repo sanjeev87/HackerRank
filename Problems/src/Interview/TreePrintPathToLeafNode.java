@@ -16,15 +16,20 @@ public class TreePrintPathToLeafNode {
 		
 		if(root.getLeft() == null && root.getRight() == null){
 			System.out.println(stack);
-			stack.pop();
+			//stack.pop();
 			return;
 		}
 		
-		if(root.getLeft() != null)
+		if(root.getLeft() != null){
 			printPathToLeaf(root.getLeft());
+			stack.pop();
+		}
 		
-		if(root.getRight() != null)
+		
+		if(root.getRight() != null){
 			printPathToLeaf(root.getRight());
+			stack.pop();
+		}
 			
 	}
 	
