@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class PathSumII {
-
+/*
   	public List<List<Integer>> pathSum(TreeNode root, int sum,
 			Stack<Integer> stack, List<List<Integer>> result) {
 
@@ -46,6 +46,49 @@ public class PathSumII {
 		Stack<Integer> s = new Stack<Integer>();
 		
 		return pathSum(root, sum, s, result);
+	}
+	*/
+	
+	
+	
+	
+	public List<List<Integer>> pathSum(TreeNode root, int sum) {
+
+		List<List<Integer>> result = new ArrayList<List<Integer>>();
+		Stack<Integer> s = new Stack<Integer>();
+		
+		if(root == null){
+			return result;
+		}
+		
+		
+		 pathSum(root, sum, s, result);
+		 return result;
+	}
+
+
+	private void pathSum(TreeNode root, int sum,
+			Stack<Integer> s, List<List<Integer>> result) {
+		
+		if(root == null){
+			return;
+		}
+		
+		if(root.left == null && root.right == null){
+			if(root.val == sum){
+				s.push(root.val);
+				List<Integer> l = new LinkedList<Integer>(s);
+				result.add(l);
+				s.pop();
+			}
+			return;
+		}
+		
+		s.push(root.val);
+		pathSum(root.left,sum-root.val,s,result);
+		pathSum(root.right,sum-root.val,s,result);
+		s.pop();
+		
 	}
 
 
