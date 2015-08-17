@@ -13,24 +13,13 @@ public class TreePrintPathToLeafNode {
 		}
 		
 		stack.push(root);
-		
 		if(root.getLeft() == null && root.getRight() == null){
 			System.out.println(stack);
 			//stack.pop();
-			return;
 		}
-		
-		if(root.getLeft() != null){
 			printPathToLeaf(root.getLeft());
-			stack.pop();
-		}
-		
-		
-		if(root.getRight() != null){
 			printPathToLeaf(root.getRight());
-			stack.pop();
-		}
-			
+		stack.pop();
 	}
 	
 	
