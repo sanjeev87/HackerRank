@@ -18,7 +18,11 @@ public class ReverseBits {
 		}
 		
 		
+<<<<<<< HEAD
 		return 0;
+=======
+		return result;
+>>>>>>> a876db7fac225a9bcd919b46f31dcb33a481db64
 	}
 
 	public static void main(String[] args) {
