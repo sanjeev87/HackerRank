@@ -39,21 +39,38 @@ public class IterativeTreeTraversal {
 		stack.push(root);
 
 		Node curNode = root;
+		Node prev = null;
 
 		while(!stack.isEmpty()){
-
-			if(curNode.getLeft() != null){
-				stack.push(curNode.getLeft());
-				curNode = curNode.getLeft();
-			}else{
+			
+			curNode = stack.peek();
+			
+			// going down the tree
+			if(prev == null || prev.getLeft() == curNode || prev.getRight() == curNode){
+				
+				if(curNode.getLeft() != null){
+					stack.push(curNode.getLeft());
+				}else{
+					curNode = stack.pop();
+					System.out.println(curNode.getValue());
+					if(curNode.getRight() != null){
+						stack.push(curNode.getRight());
+					}
+				}
+				
+			}
+			
+			// going up 
+			else  {
 				curNode = stack.pop();
 				System.out.println(curNode.getValue());
 				if(curNode.getRight() != null){
 					stack.push(curNode.getRight());
-					curNode = curNode.getRight();
 				}
+				
 			}
-
+			
+			prev = curNode;
 		}
 
 
@@ -114,9 +131,11 @@ public class IterativeTreeTraversal {
 		Node node6 = new Node(6);
 		Node node7 = new Node(7);
 		Node node8 = new Node(8);
+		Node node9 = new Node(9);
 
 		node3.setLeft(node1);
 		node1.setRight(node2);
+		node1.setLeft(node9);
 
 		node3.setRight(node5);
 		node5.setLeft(node4);
@@ -128,7 +147,7 @@ public class IterativeTreeTraversal {
 
 		IterativeTreeTraversal algo = new IterativeTreeTraversal();
 		//		algo.iterativePreorderTraversal(node3);
-		algo.iterativePostorderTraversal(node3);
+		algo.iterativeInorderTraversal(node3);
 
 
 	}
