@@ -15,7 +15,7 @@ public class PaintHouse {
     	
     	for(int houseNum = 1 ; houseNum < costs.length ; houseNum++){
     		for(int color = 0 ; color < 3 ; color++){
-    			res[houseNum][color] = costs[houseNum][color] + getMinCostWithoutColor(houseNum, color, res);
+    			res[houseNum+1][color] = costs[houseNum][color] + getMinCostWithoutColor(houseNum, color, res);
     		}
     	}
     	return Math.min(res[costs.length][0], Math.min(res[costs.length][1], res[costs.length][2]));
